@@ -1,0 +1,97 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+  width: 100%;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  margin-bottom: 50px;
+}
+/* ​ */
+header {
+	width: 100%;
+	height: 40px;
+	background-color: black;
+}
+.left1{
+     float: left; 
+     margin-right: 70px;
+     margin-bottom: 70px;
+}
+.left2{
+     float: left;
+}
+.right1{
+	float: right;
+	margin-right: 70px;
+	margin-bottom: 70px;
+}
+.right2{
+    float: right;
+    margin-right: 70px;
+}
+header ul {
+	margin-bottom: 2em;
+	margin-right: 2em;
+}
+header ul a {
+	text-decoration: none;
+    color: white;
+ }
+header li {
+	list-style-type: none;
+	float: left;
+}
+header ul:after {
+	  content: " .";
+	  display: block;
+	  width: 100px;
+	  height:100px;
+}
+.main-header img {
+	   font-family: times new roman;
+	   margin-top: 100px;
+	   text-align: center;
+	   font-size: 15px;
+
+}
+.about {
+  font-size: 20px;
+/* About Implémentation de la partie Achieve */
+}
+/* ​ */
+.function {
+	width: 100%;
+    height: 470px;
+	background-color:  #DCDCDC;
+	padding-top: 150px;
+	padding-left: 280px;
+	display: inline-block;
+}
+.function-images {
+	text-align: left;
+
+}
+.function-image {
+	float: left;
+	padding: 50px;
+}
+/* Implémentation de la partie Function */
+#titre{
+	padding-right: 600px;
+}
+footer {
+     width: 100%;
+     height: 50px;
+     background-color:midnightblue;
+     color: white;
+     font-size: 10px;
+      padding: 10px;
+/* La description de css écrite ici n'est qu'un modèle préparé comme indice, donc si vous voulez l'implémenter sans suivre la description écrite, vous pouvez le faire comme vous le souhaitez. Toute implémentation réussira si les exigences de la tâche sont satisfaites et si la qualité du code est à un certain niveau. */
